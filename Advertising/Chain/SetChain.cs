@@ -1,0 +1,40 @@
+﻿namespace BotCore.Advertising
+{
+	internal enum SetChain
+	{
+		None = 0,
+		GetPayments = 5000,
+		AddPhoto,
+		SetEditorText,
+		DeletePostTemplate,
+		SetUserInTransaction,
+		SetPayTransaction,
+		SetTransactionDiscription,
+		SetTransactionDiscriptionUSerTwo,
+		SetIdTransaction,
+		SetPublicKeyUserTwo,
+		SetPhoto,
+		AddCategoty,
+		AddChannelInCategory,
+		LinkChat,
+		LinkChatPharase,
+		SearchInMessage,
+		PhraseUser,
+		AdminCallBlockchain,
+		MessageUserInBot,
+		AddAccauntUser,
+		AddCodeUser,
+		PostCountChannel,
+		RegulationsUBC,
+		DeleteChat,
+		DeleteCategory,
+		SetPriceTime,
+		SetPriceStandartMessage,
+		SetPriceStatic,
+		SetStaticTimePinnedPrice,
+		SetStaticTimePinnedNotificationPrice,
+		NotificationText,
+		NotificationButton,
+		PictureNotification
+	};
+}
